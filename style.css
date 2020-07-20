@@ -20,7 +20,8 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  background: var(--backgroundColor) url(/images/bg-intro-mobile.png);
+  background: url(/images/bg-intro-mobile.png);
+  background-color: var(--backgroundColor);
 }
 .header-word {
   padding-top: 90px;
@@ -126,7 +127,8 @@ body {
 }
 @media screen and (min-width: 800px) {
   body {
-    background: var(--backgroundColor) url(/images/bg-intro-desktop.png);
+    background: url(/images/bg-intro-desktop.png);
+    background-color: var(--backgroundColor);
   }
   .flex {
     margin-top: 5%;
